@@ -2,7 +2,7 @@
   "states": {
     "failed": {
       "visible_green_pixels": 0,
-      "visible_cyan_pixels": 0
+      "visible_cyan_pixels": 1
     },
     "idle": {
       "visible_green_pixels": 0,

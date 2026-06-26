@@ -22,7 +22,7 @@
     "states": {
       "failed": {
         "visible_green_pixels": 0,
-        "visible_cyan_pixels": 0
+        "visible_cyan_pixels": 1
       },
       "idle": {
         "visible_green_pixels": 0,
@@ -68,5 +68,5 @@
       }
     }
   },
-  "live_photo_content_identifier": "EA0465A9-042E-4E26-81D2-12B8E4B15F8E"
+  "live_photo_content_identifier": "A260D874-9A4B-4511-99D9-FD6372980FCC"
 }
