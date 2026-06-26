@@ -33,7 +33,7 @@ cp -R SSH ~/.codex/pets/SSH
 | `running-right` | 向右拖拽，惊慌失措 | ![running-right](assets/gifs/states/running-right.gif) |
 | `running-left` | 向左拖拽，单独绘制避免镜像穿模 | ![running-left](assets/gifs/states/running-left.gif) |
 | `waving` | 挥手 | ![waving](assets/gifs/states/waving.gif) |
-| `jumping` | 鼠标选中反馈：安静整理发型 | ![jumping](assets/gifs/states/jumping.gif) |
+| `jumping` | 鼠标选中反馈：闭眼哼歌 | ![jumping](assets/gifs/states/jumping.gif) |
 | `failed` | 委屈哭泣，保持站立微曲膝 | ![failed](assets/gifs/states/failed.gif) |
 | `waiting` | 等待输入或确认 | ![waiting](assets/gifs/states/waiting.gif) |
 | `running` | 工作中/处理中 | ![running](assets/gifs/states/running.gif) |
@@ -64,13 +64,13 @@ Codex pet 的 atlas 行是固定协议，视觉动作需要放在对应行里：
 | 1 | `running-right` | 向右拖拽宠物 | 惊慌失措地被拖向右边 |
 | 2 | `running-left` | 向左拖拽宠物 | 惊慌失措地被拖向左边 |
 | 3 | `waving` | 打招呼/唤起注意 | 挥手 |
-| 4 | `jumping` | 鼠标 hover/点击/选中反馈，协议名仍叫 jumping | 安静整理发型，固定视窗保持比例 |
+| 4 | `jumping` | 鼠标 hover/点击/选中反馈，协议名仍叫 jumping | 闭眼哼歌，双手放胸前，头部摇晃，带彩色音符 |
 | 5 | `failed` | 失败、取消、卡住 | 站着委屈哭泣，只微曲膝 |
 | 6 | `waiting` | 等待用户确认或输入 | 双手放前、耐心等待 |
 | 7 | `running` | 任务运行中 | 思考/忙碌处理的小动作 |
 | 8 | `review` | 结果完成，等待查看 | 自然掏手机、刷手机、放回 |
 
-`humming`、`sleepy`、`blink` 等放在 `assets/gifs/extras/`，它们是分享/展示素材，不会被 Codex 的固定 atlas 自动触发。
+`jumping` 行现在使用现成的哼歌动作作为选中反馈。`sleepy`、`blink`、`hair-fix-selected` 等额外 GIF 放在 `assets/gifs/extras/`，它们是分享/展示素材，不会被 Codex 的固定 atlas 自动触发。
 
 ## 文件结构
 
@@ -129,7 +129,7 @@ The standard atlas includes `idle`, `running-right`, `running-left`, `waving`, `
 
 Codex uses a fixed 9-row atlas. This package maps the rows as follows: `idle` for resting, `running-right` and `running-left` for drag direction, `waving` for greeting/attention, `jumping` for mouse hover/click/selection feedback, `failed` for failed or cancelled work, `waiting` for user confirmation, `running` for active task processing, and `review` for completed output review.
 
-The protocol row is still named `jumping`, but the visual action is intentionally quiet: tidying her hair with a fixed viewport to keep the selected-state scale stable. Extra GIFs such as `humming` and `sleepy` are included for sharing and README previews; they are not auto-triggered by the fixed Codex atlas.
+The protocol row is still named `jumping`, but the visual action is the existing humming animation: closed eyes, both hands on the chest, a swaying head, and colorful music notes. Extra GIFs such as `sleepy`, `blink`, and `hair-fix-selected` are included for sharing and README previews; they are not auto-triggered by the fixed Codex atlas.
 
 ## Extra Actions
 
