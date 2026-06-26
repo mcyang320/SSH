@@ -1,6 +1,6 @@
 {
-  "id": "ssh-pet",
-  "displayName": "SSH Pet",
+  "id": "SSH",
+  "displayName": "SSH",
   "description": "A cute little girl inspired by YMC's girlfriend.",
   "spritesheetPath": "spritesheet.webp"
 }

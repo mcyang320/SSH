@@ -472,75 +472,75 @@
           "file": "/Users/mcyang/Documents/Codex/2026-06-26/bang/work/ssh-pet-hatch-run-green/frames-stable/jumping/00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 11593,
+          "nontransparent_pixels": 12636,
           "bbox": [
-            58,
-            13,
-            152,
+            34,
+            7,
+            160,
             201
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 23
+          "chroma_adjacent_pixels": 55
         },
         {
           "index": 1,
           "file": "/Users/mcyang/Documents/Codex/2026-06-26/bang/work/ssh-pet-hatch-run-green/frames-stable/jumping/01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 11919,
+          "nontransparent_pixels": 13192,
           "bbox": [
-            51,
-            11,
-            147,
+            28,
+            7,
+            164,
             201
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 21
+          "chroma_adjacent_pixels": 71
         },
         {
           "index": 2,
           "file": "/Users/mcyang/Documents/Codex/2026-06-26/bang/work/ssh-pet-hatch-run-green/frames-stable/jumping/02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 11993,
+          "nontransparent_pixels": 13177,
           "bbox": [
-            47,
-            11,
-            144,
+            32,
+            7,
+            158,
             201
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 27
+          "chroma_adjacent_pixels": 54
         },
         {
           "index": 3,
           "file": "/Users/mcyang/Documents/Codex/2026-06-26/bang/work/ssh-pet-hatch-run-green/frames-stable/jumping/03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 11955,
+          "nontransparent_pixels": 13328,
           "bbox": [
-            44,
-            11,
-            139,
+            31,
+            7,
+            163,
             201
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 22
+          "chroma_adjacent_pixels": 60
         },
         {
           "index": 4,
           "file": "/Users/mcyang/Documents/Codex/2026-06-26/bang/work/ssh-pet-hatch-run-green/frames-stable/jumping/04.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 11506,
+          "nontransparent_pixels": 12601,
           "bbox": [
-            39,
-            13,
-            132,
+            28,
+            7,
+            164,
             201
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 25
+          "chroma_adjacent_pixels": 42
         }
       ]
     },

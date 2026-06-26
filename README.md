@@ -1,21 +1,21 @@
-# SSH Pet
+# SSH
 
 **中文** | [English](#english)
 
 A cute little girl inspired by YMC's girlfriend.
 
-![SSH Pet demo](assets/gifs/ssh-pet-demo.gif)
+![SSH demo](assets/gifs/SSH-demo.gif)
 
 ## 中文
 
-SSH Pet 是一个按 Codex 宠物标准制作的像素风小女孩宠物包。角色是长卷发、灰色针织背心、白衬衫、黑色百褶短裙、黑色过膝袜和白色运动鞋的可爱小女孩，灵感来源于 YMC's girlfriend。
+SSH 是一个按 Codex 宠物标准制作的像素风小女孩宠物包。角色是长卷发、灰色针织背心、白衬衫、黑色百褶短裙、黑色过膝袜和白色运动鞋的可爱小女孩，灵感来源于 YMC's girlfriend。
 
 ## 安装
 
 把这个目录放到 Codex 的 pets 目录：
 
 ```bash
-cp -R ssh-pet ~/.codex/pets/ssh-pet
+cp -R SSH ~/.codex/pets/SSH
 ```
 
 核心文件只有两个：
@@ -75,18 +75,18 @@ Codex pet 的 atlas 行是固定协议，视觉动作需要放在对应行里：
 ## 文件结构
 
 ```text
-ssh-pet/
+SSH/
   pet.json
   spritesheet.webp
   assets/
     gifs/
-      ssh-pet-demo.gif
+      SSH-demo.gif
       states/*.gif
       extras/*.gif
     live-photo/
-      ssh-pet-live.jpg
-      ssh-pet-live.mov
-      ssh-pet-social.mp4
+      SSH-live.jpg
+      SSH-live.mov
+      SSH-social.mp4
     qa/
       contact-sheet.png
       validation.json
@@ -103,14 +103,14 @@ ssh-pet/
 
 ## English
 
-SSH Pet is a Codex pet package featuring a cute little pixel-art girl inspired by YMC's girlfriend. She has long wavy dark-brown hair, a gray knit vest over a white shirt, a black pleated skirt, black over-knee socks, and white sneakers.
+SSH is a Codex pet package featuring a cute little pixel-art girl inspired by YMC's girlfriend. She has long wavy dark-brown hair, a gray knit vest over a white shirt, a black pleated skirt, black over-knee socks, and white sneakers.
 
 ## Installation
 
 Copy this folder into your Codex pets directory:
 
 ```bash
-cp -R ssh-pet ~/.codex/pets/ssh-pet
+cp -R SSH ~/.codex/pets/SSH
 ```
 
 Codex only needs:
