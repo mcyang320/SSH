@@ -13,10 +13,11 @@
   "extras": [
     "blink",
     "smile",
-    "bouncy",
+    "hair-fix-selected",
     "sleepy",
     "humming",
-    "dragging-panicked"
+    "dragging-panicked",
+    "dragging-panicked-left"
   ],
   "edge_diagnostics": {
     "states": {
@@ -68,5 +69,5 @@
       }
     }
   },
-  "live_photo_content_identifier": "A260D874-9A4B-4511-99D9-FD6372980FCC"
+  "live_photo_content_identifier": "CB55D85C-1CFF-45E4-951A-0123B15350D0"
 }

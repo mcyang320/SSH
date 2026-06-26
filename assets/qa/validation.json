@@ -126,56 +126,56 @@
       "row": 2,
       "column": 0,
       "used": true,
-      "nontransparent_pixels": 17603
+      "nontransparent_pixels": 16772
     },
     {
       "state": "running-left",
       "row": 2,
       "column": 1,
       "used": true,
-      "nontransparent_pixels": 16608
+      "nontransparent_pixels": 16573
     },
     {
       "state": "running-left",
       "row": 2,
       "column": 2,
       "used": true,
-      "nontransparent_pixels": 16386
+      "nontransparent_pixels": 16607
     },
     {
       "state": "running-left",
       "row": 2,
       "column": 3,
       "used": true,
-      "nontransparent_pixels": 16868
+      "nontransparent_pixels": 16170
     },
     {
       "state": "running-left",
       "row": 2,
       "column": 4,
       "used": true,
-      "nontransparent_pixels": 16166
+      "nontransparent_pixels": 16497
     },
     {
       "state": "running-left",
       "row": 2,
       "column": 5,
       "used": true,
-      "nontransparent_pixels": 16720
+      "nontransparent_pixels": 16151
     },
     {
       "state": "running-left",
       "row": 2,
       "column": 6,
       "used": true,
-      "nontransparent_pixels": 15850
+      "nontransparent_pixels": 15900
     },
     {
       "state": "running-left",
       "row": 2,
       "column": 7,
       "used": true,
-      "nontransparent_pixels": 16079
+      "nontransparent_pixels": 16916
     },
     {
       "state": "waving",
@@ -238,35 +238,35 @@
       "row": 4,
       "column": 0,
       "used": true,
-      "nontransparent_pixels": 13590
+      "nontransparent_pixels": 11593
     },
     {
       "state": "jumping",
       "row": 4,
       "column": 1,
       "used": true,
-      "nontransparent_pixels": 13675
+      "nontransparent_pixels": 11919
     },
     {
       "state": "jumping",
       "row": 4,
       "column": 2,
       "used": true,
-      "nontransparent_pixels": 13840
+      "nontransparent_pixels": 11993
     },
     {
       "state": "jumping",
       "row": 4,
       "column": 3,
       "used": true,
-      "nontransparent_pixels": 13660
+      "nontransparent_pixels": 11955
     },
     {
       "state": "jumping",
       "row": 4,
       "column": 4,
       "used": true,
-      "nontransparent_pixels": 13619
+      "nontransparent_pixels": 11506
     },
     {
       "state": "jumping",

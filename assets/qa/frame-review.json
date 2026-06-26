@@ -266,120 +266,120 @@
           "file": "/Users/mcyang/Documents/Codex/2026-06-26/bang/work/ssh-pet-hatch-run-green/frames-stable/running-left/00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17603,
+          "nontransparent_pixels": 16772,
           "bbox": [
-            20,
-            5,
-            170,
-            199
+            12,
+            6,
+            179,
+            201
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 77
+          "chroma_adjacent_pixels": 85
         },
         {
           "index": 1,
           "file": "/Users/mcyang/Documents/Codex/2026-06-26/bang/work/ssh-pet-hatch-run-green/frames-stable/running-left/01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16608,
+          "nontransparent_pixels": 16573,
           "bbox": [
-            26,
-            5,
-            165,
-            202
+            24,
+            6,
+            167,
+            201
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 57
+          "chroma_adjacent_pixels": 68
         },
         {
           "index": 2,
           "file": "/Users/mcyang/Documents/Codex/2026-06-26/bang/work/ssh-pet-hatch-run-green/frames-stable/running-left/02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16386,
+          "nontransparent_pixels": 16607,
           "bbox": [
-            20,
+            18,
             5,
-            172,
-            203
+            173,
+            201
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 72
+          "chroma_adjacent_pixels": 107
         },
         {
           "index": 3,
           "file": "/Users/mcyang/Documents/Codex/2026-06-26/bang/work/ssh-pet-hatch-run-green/frames-stable/running-left/03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16868,
+          "nontransparent_pixels": 16170,
           "bbox": [
-            17,
-            6,
-            175,
+            24,
+            14,
+            167,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 76
+          "chroma_adjacent_pixels": 77
         },
         {
           "index": 4,
           "file": "/Users/mcyang/Documents/Codex/2026-06-26/bang/work/ssh-pet-hatch-run-green/frames-stable/running-left/04.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16166,
+          "nontransparent_pixels": 16497,
           "bbox": [
-            28,
-            6,
-            164,
-            200
+            22,
+            12,
+            168,
+            202
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 67
+          "chroma_adjacent_pixels": 98
         },
         {
           "index": 5,
           "file": "/Users/mcyang/Documents/Codex/2026-06-26/bang/work/ssh-pet-hatch-run-green/frames-stable/running-left/05.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16720,
+          "nontransparent_pixels": 16151,
           "bbox": [
+            20,
             17,
-            5,
-            175,
-            202
+            170,
+            203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 65
+          "chroma_adjacent_pixels": 78
         },
         {
           "index": 6,
           "file": "/Users/mcyang/Documents/Codex/2026-06-26/bang/work/ssh-pet-hatch-run-green/frames-stable/running-left/06.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 15850,
+          "nontransparent_pixels": 15900,
           "bbox": [
-            18,
-            6,
-            174,
-            202
+            26,
+            14,
+            165,
+            203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 64
+          "chroma_adjacent_pixels": 95
         },
         {
           "index": 7,
           "file": "/Users/mcyang/Documents/Codex/2026-06-26/bang/work/ssh-pet-hatch-run-green/frames-stable/running-left/07.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16079,
+          "nontransparent_pixels": 16916,
           "bbox": [
-            25,
-            9,
-            169,
+            12,
+            7,
+            178,
             202
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 66
+          "chroma_adjacent_pixels": 57
         }
       ]
     },
@@ -472,57 +472,57 @@
           "file": "/Users/mcyang/Documents/Codex/2026-06-26/bang/work/ssh-pet-hatch-run-green/frames-stable/jumping/00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 13590,
+          "nontransparent_pixels": 11593,
           "bbox": [
-            43,
-            5,
-            147,
-            203
+            58,
+            13,
+            152,
+            201
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 26
+          "chroma_adjacent_pixels": 23
         },
         {
           "index": 1,
           "file": "/Users/mcyang/Documents/Codex/2026-06-26/bang/work/ssh-pet-hatch-run-green/frames-stable/jumping/01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 13675,
+          "nontransparent_pixels": 11919,
           "bbox": [
-            43,
-            5,
-            148,
-            203
+            51,
+            11,
+            147,
+            201
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 23
+          "chroma_adjacent_pixels": 21
         },
         {
           "index": 2,
           "file": "/Users/mcyang/Documents/Codex/2026-06-26/bang/work/ssh-pet-hatch-run-green/frames-stable/jumping/02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 13840,
+          "nontransparent_pixels": 11993,
           "bbox": [
-            43,
-            5,
-            148,
-            203
+            47,
+            11,
+            144,
+            201
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 21
+          "chroma_adjacent_pixels": 27
         },
         {
           "index": 3,
           "file": "/Users/mcyang/Documents/Codex/2026-06-26/bang/work/ssh-pet-hatch-run-green/frames-stable/jumping/03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 13660,
+          "nontransparent_pixels": 11955,
           "bbox": [
-            43,
-            5,
-            148,
-            203
+            44,
+            11,
+            139,
+            201
           ],
           "edge_pixels": 0,
           "chroma_adjacent_pixels": 22
@@ -532,15 +532,15 @@
           "file": "/Users/mcyang/Documents/Codex/2026-06-26/bang/work/ssh-pet-hatch-run-green/frames-stable/jumping/04.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 13619,
+          "nontransparent_pixels": 11506,
           "bbox": [
-            43,
-            5,
-            148,
-            203
+            39,
+            13,
+            132,
+            201
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 16
+          "chroma_adjacent_pixels": 25
         }
       ]
     },

@@ -31,9 +31,9 @@ cp -R ssh-pet ~/.codex/pets/ssh-pet
 |---|---|---|
 | `idle` | 待机、眨眼、微笑 | ![idle](assets/gifs/states/idle.gif) |
 | `running-right` | 向右拖拽，惊慌失措 | ![running-right](assets/gifs/states/running-right.gif) |
-| `running-left` | 向左拖拽，惊慌失措 | ![running-left](assets/gifs/states/running-left.gif) |
+| `running-left` | 向左拖拽，单独绘制避免镜像穿模 | ![running-left](assets/gifs/states/running-left.gif) |
 | `waving` | 挥手 | ![waving](assets/gifs/states/waving.gif) |
-| `jumping` | 安静选中反馈：注意到你、眨眼、轻点头 | ![jumping](assets/gifs/states/jumping.gif) |
+| `jumping` | 鼠标选中反馈：安静整理发型 | ![jumping](assets/gifs/states/jumping.gif) |
 | `failed` | 委屈哭泣，保持站立微曲膝 | ![failed](assets/gifs/states/failed.gif) |
 | `waiting` | 等待输入或确认 | ![waiting](assets/gifs/states/waiting.gif) |
 | `running` | 工作中/处理中 | ![running](assets/gifs/states/running.gif) |
@@ -47,10 +47,11 @@ cp -R ssh-pet ~/.codex/pets/ssh-pet
 |---|---|---|
 | `blink` | 眨眼 | ![blink](assets/gifs/extras/blink.gif) |
 | `smile` | 微笑 | ![smile](assets/gifs/extras/smile.gif) |
-| `bouncy` | 由选中反馈派生的轻微动作 | ![bouncy](assets/gifs/extras/bouncy.gif) |
+| `hair-fix-selected` | 选中时整理发型 | ![hair-fix-selected](assets/gifs/extras/hair-fix-selected.gif) |
 | `sleepy` | 打瞌睡 | ![sleepy](assets/gifs/extras/sleepy.gif) |
 | `humming` | 闭眼、双手放胸前、头部摇晃、彩色音符 | ![humming](assets/gifs/extras/humming.gif) |
-| `dragging-panicked` | 拖拽时惊慌失措 | ![dragging-panicked](assets/gifs/extras/dragging-panicked.gif) |
+| `dragging-panicked` | 向右拖拽时惊慌失措 | ![dragging-panicked](assets/gifs/extras/dragging-panicked.gif) |
+| `dragging-panicked-left` | 向左拖拽时惊慌失措，单独绘制 | ![dragging-panicked-left](assets/gifs/extras/dragging-panicked-left.gif) |
 
 
 ## 触发逻辑
@@ -63,7 +64,7 @@ Codex pet 的 atlas 行是固定协议，视觉动作需要放在对应行里：
 | 1 | `running-right` | 向右拖拽宠物 | 惊慌失措地被拖向右边 |
 | 2 | `running-left` | 向左拖拽宠物 | 惊慌失措地被拖向左边 |
 | 3 | `waving` | 打招呼/唤起注意 | 挥手 |
-| 4 | `jumping` | 鼠标 hover/点击/选中反馈，协议名仍叫 jumping | 安静注意到你、眨眼、轻点头 |
+| 4 | `jumping` | 鼠标 hover/点击/选中反馈，协议名仍叫 jumping | 安静整理发型，固定视窗保持比例 |
 | 5 | `failed` | 失败、取消、卡住 | 站着委屈哭泣，只微曲膝 |
 | 6 | `waiting` | 等待用户确认或输入 | 双手放前、耐心等待 |
 | 7 | `running` | 任务运行中 | 思考/忙碌处理的小动作 |
@@ -128,8 +129,8 @@ The standard atlas includes `idle`, `running-right`, `running-left`, `waving`, `
 
 Codex uses a fixed 9-row atlas. This package maps the rows as follows: `idle` for resting, `running-right` and `running-left` for drag direction, `waving` for greeting/attention, `jumping` for mouse hover/click/selection feedback, `failed` for failed or cancelled work, `waiting` for user confirmation, `running` for active task processing, and `review` for completed output review.
 
-The protocol row is still named `jumping`, but the visual action is intentionally quiet: noticing the cursor, blinking, and a small nod. Extra GIFs such as `humming` and `sleepy` are included for sharing and README previews; they are not auto-triggered by the fixed Codex atlas.
+The protocol row is still named `jumping`, but the visual action is intentionally quiet: tidying her hair with a fixed viewport to keep the selected-state scale stable. Extra GIFs such as `humming` and `sleepy` are included for sharing and README previews; they are not auto-triggered by the fixed Codex atlas.
 
 ## Extra Actions
 
-Extra GIFs include blink, smile, bouncy, sleepy, humming, and dragging-panicked. The humming action has closed eyes, both hands on the chest, a swaying head, and colorful music notes.
+Extra GIFs include blink, smile, hair-fix-selected, sleepy, humming, and dragging-panicked. The humming action has closed eyes, both hands on the chest, a swaying head, and colorful music notes.
