@@ -1,0 +1,50 @@
+{
+  "states": {
+    "failed": {
+      "visible_green_pixels": 0,
+      "visible_cyan_pixels": 0
+    },
+    "idle": {
+      "visible_green_pixels": 0,
+      "visible_cyan_pixels": 0
+    },
+    "jumping": {
+      "visible_green_pixels": 0,
+      "visible_cyan_pixels": 0
+    },
+    "review": {
+      "visible_green_pixels": 0,
+      "visible_cyan_pixels": 0
+    },
+    "running": {
+      "visible_green_pixels": 0,
+      "visible_cyan_pixels": 0
+    },
+    "running-left": {
+      "visible_green_pixels": 0,
+      "visible_cyan_pixels": 0
+    },
+    "running-right": {
+      "visible_green_pixels": 0,
+      "visible_cyan_pixels": 0
+    },
+    "waiting": {
+      "visible_green_pixels": 0,
+      "visible_cyan_pixels": 0
+    },
+    "waving": {
+      "visible_green_pixels": 0,
+      "visible_cyan_pixels": 0
+    }
+  },
+  "extras": {
+    "humming": {
+      "visible_green_pixels": 0,
+      "visible_cyan_pixels": 286
+    },
+    "sleepy": {
+      "visible_green_pixels": 0,
+      "visible_cyan_pixels": 219
+    }
+  }
+}
